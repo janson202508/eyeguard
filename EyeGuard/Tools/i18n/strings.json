@@ -1,0 +1,842 @@
+{
+ "appName": {
+  "type": "s",
+  "en": "EyeGuard",
+  "zh-Hans": "EyeGuard"
+ },
+ "settingsWindowTitle": {
+  "type": "s",
+  "en": "EyeGuard Settings",
+  "zh-Hans": "EyeGuard 设置"
+ },
+ "commonCancel": {
+  "type": "s",
+  "en": "Cancel",
+  "zh-Hans": "取消"
+ },
+ "commonDelete": {
+  "type": "s",
+  "en": "Delete",
+  "zh-Hans": "删除"
+ },
+ "countScenes": {
+  "type": "i",
+  "en": "%d scenes",
+  "zh-Hans": "%d 张"
+ },
+ "countScenesTotal": {
+  "type": "i",
+  "en": "%d total",
+  "zh-Hans": "共 %d 张"
+ },
+ "countScenesEnabled": {
+  "type": "i",
+  "en": "%d enabled",
+  "zh-Hans": "%d 张启用"
+ },
+ "catCustom": {
+  "type": "s",
+  "en": "My Images",
+  "zh-Hans": "我的图片"
+ },
+ "catMountain": {
+  "type": "s",
+  "en": "Mountains",
+  "zh-Hans": "山峦"
+ },
+ "catOcean": {
+  "type": "s",
+  "en": "Ocean",
+  "zh-Hans": "海洋"
+ },
+ "catForest": {
+  "type": "s",
+  "en": "Forest",
+  "zh-Hans": "森林"
+ },
+ "catLake": {
+  "type": "s",
+  "en": "Lakes",
+  "zh-Hans": "湖泊"
+ },
+ "catDesert": {
+  "type": "s",
+  "en": "Desert",
+  "zh-Hans": "沙漠"
+ },
+ "catSnow": {
+  "type": "s",
+  "en": "Snow",
+  "zh-Hans": "雪原"
+ },
+ "catStarfield": {
+  "type": "s",
+  "en": "Starfield",
+  "zh-Hans": "星空"
+ },
+ "catGrassland": {
+  "type": "s",
+  "en": "Grassland",
+  "zh-Hans": "草原"
+ },
+ "catCanyon": {
+  "type": "s",
+  "en": "Canyon",
+  "zh-Hans": "峡谷"
+ },
+ "catAerial": {
+  "type": "s",
+  "en": "Aerial",
+  "zh-Hans": "高空俯瞰"
+ },
+ "toneCool": {
+  "type": "s",
+  "en": "Cool",
+  "zh-Hans": "冷调"
+ },
+ "toneWarm": {
+  "type": "s",
+  "en": "Warm",
+  "zh-Hans": "暖调"
+ },
+ "toneNeutral": {
+  "type": "s",
+  "en": "Neutral",
+  "zh-Hans": "中性"
+ },
+ "sourceImported": {
+  "type": "s",
+  "en": "My Images",
+  "zh-Hans": "我的图片"
+ },
+ "sourceBundled": {
+  "type": "s",
+  "en": "Bundled",
+  "zh-Hans": "预置"
+ },
+ "sourceDownloaded": {
+  "type": "s",
+  "en": "Downloaded",
+  "zh-Hans": "已下载"
+ },
+ "sourcePlaceholder": {
+  "type": "s",
+  "en": "Placeholder",
+  "zh-Hans": "占位素材"
+ },
+ "phaseWorking": {
+  "type": "s",
+  "en": "Counting down",
+  "zh-Hans": "计时中"
+ },
+ "phasePrewarning": {
+  "type": "s",
+  "en": "Break soon",
+  "zh-Hans": "即将休息"
+ },
+ "phaseResting": {
+  "type": "s",
+  "en": "Resting",
+  "zh-Hans": "休息中"
+ },
+ "phaseSnoozed": {
+  "type": "s",
+  "en": "Snoozed",
+  "zh-Hans": "已延后"
+ },
+ "phaseSuppressed": {
+  "type": "s",
+  "en": "Suppressed",
+  "zh-Hans": "顺延中"
+ },
+ "phasePaused": {
+  "type": "s",
+  "en": "Paused",
+  "zh-Hans": "已暂停"
+ },
+ "phaseSleeping": {
+  "type": "s",
+  "en": "Sleeping",
+  "zh-Hans": "休眠中"
+ },
+ "targetMouseScreen": {
+  "type": "s",
+  "en": "Screen with pointer",
+  "zh-Hans": "鼠标所在屏幕"
+ },
+ "targetMainScreen": {
+  "type": "s",
+  "en": "Main screen",
+  "zh-Hans": "主屏幕"
+ },
+ "targetAllScreens": {
+  "type": "s",
+  "en": "All screens",
+  "zh-Hans": "全部屏幕"
+ },
+ "reasonIdle": {
+  "type": "s",
+  "en": "User away",
+  "zh-Hans": "用户离开"
+ },
+ "reasonFullscreen": {
+  "type": "s",
+  "en": "Fullscreen / presenting",
+  "zh-Hans": "前台全屏 / 演示中"
+ },
+ "reasonCamera": {
+  "type": "s",
+  "en": "Camera in use (in a meeting)",
+  "zh-Hans": "摄像头被占用（会议中）"
+ },
+ "reasonManual": {
+  "type": "s",
+  "en": "Paused manually",
+  "zh-Hans": "手动暂停"
+ },
+ "reasonSleeping": {
+  "type": "s",
+  "en": "Screen locked or asleep",
+  "zh-Hans": "锁屏或系统休眠"
+ },
+ "statusNextBreak": {
+  "type": "str",
+  "en": "Next break in %@",
+  "zh-Hans": "距离下次休息 %@"
+ },
+ "statusResting": {
+  "type": "i",
+  "en": "Resting · %d s left",
+  "zh-Hans": "休息中 · 还剩 %d 秒"
+ },
+ "statusSuppressed": {
+  "type": "s",
+  "en": "Suppressed",
+  "zh-Hans": "顺延中"
+ },
+ "statusSuppressedWith": {
+  "type": "str",
+  "en": "Suppressed: %@",
+  "zh-Hans": "顺延中：%@"
+ },
+ "statusPausedUntil": {
+  "type": "str",
+  "en": "Paused until %@",
+  "zh-Hans": "已暂停至 %@"
+ },
+ "statusPaused": {
+  "type": "s",
+  "en": "Paused",
+  "zh-Hans": "已暂停"
+ },
+ "statusSleeping": {
+  "type": "s",
+  "en": "Sleeping",
+  "zh-Hans": "休眠中"
+ },
+ "listSeparator": {
+  "type": "s",
+  "en": ", ",
+  "zh-Hans": "、"
+ },
+ "menuShowingCategory": {
+  "type": "str",
+  "en": "Showing: %@",
+  "zh-Hans": "正在展示：%@"
+ },
+ "menuRestNow": {
+  "type": "s",
+  "en": "Take a Break Now",
+  "zh-Hans": "立即休息"
+ },
+ "menuSnooze": {
+  "type": "i",
+  "en": "Snooze %d min",
+  "zh-Hans": "延后 %d 分钟"
+ },
+ "menuResume": {
+  "type": "s",
+  "en": "Resume Reminders",
+  "zh-Hans": "恢复提醒"
+ },
+ "menuPause": {
+  "type": "s",
+  "en": "Pause",
+  "zh-Hans": "暂停"
+ },
+ "menuPauseIndefinitely": {
+  "type": "s",
+  "en": "Until I Resume",
+  "zh-Hans": "直到手动恢复"
+ },
+ "menuPause30": {
+  "type": "s",
+  "en": "30 minutes",
+  "zh-Hans": "30 分钟"
+ },
+ "menuPause60": {
+  "type": "s",
+  "en": "1 hour",
+  "zh-Hans": "1 小时"
+ },
+ "menuPauseToday": {
+  "type": "s",
+  "en": "No More Today",
+  "zh-Hans": "今天不再提醒"
+ },
+ "menuSettings": {
+  "type": "s",
+  "en": "Settings…",
+  "zh-Hans": "设置…"
+ },
+ "menuQuit": {
+  "type": "s",
+  "en": "Quit EyeGuard",
+  "zh-Hans": "退出 EyeGuard"
+ },
+ "restEmptyLibrary": {
+  "type": "s",
+  "en": "No scenes available — add background images in Settings",
+  "zh-Hans": "素材库为空，可在设置里添加背景图片"
+ },
+ "restNextScene": {
+  "type": "s",
+  "en": "Next scene",
+  "zh-Hans": "换一张"
+ },
+ "restSkip": {
+  "type": "s",
+  "en": "Skip",
+  "zh-Hans": "跳过"
+ },
+ "restSkipUnlockIn": {
+  "type": "i",
+  "en": "Skip available in %d s",
+  "zh-Hans": "跳过将在 %d 秒后可用"
+ },
+ "tabGeneral": {
+  "type": "s",
+  "en": "General",
+  "zh-Hans": "常规"
+ },
+ "tabSuppression": {
+  "type": "s",
+  "en": "Suppression",
+  "zh-Hans": "顺延"
+ },
+ "tabDisplay": {
+  "type": "s",
+  "en": "Display",
+  "zh-Hans": "显示"
+ },
+ "tabAssets": {
+  "type": "s",
+  "en": "Scenes",
+  "zh-Hans": "素材"
+ },
+ "tabAbout": {
+  "type": "s",
+  "en": "About",
+  "zh-Hans": "关于"
+ },
+ "aboutCodeLicense": {
+  "type": "s",
+  "en": "Code released under the MIT license.",
+  "zh-Hans": "代码以 MIT 许可发布。"
+ },
+ "aboutPhotoNote": {
+  "type": "s",
+  "en": "The built-in photos come from Wikimedia Commons. Each keeps its own license — the code license above does not cover them.",
+  "zh-Hans": "内置风景照来自 Wikimedia Commons，各自适用其原始许可 —— 上面的代码许可不覆盖它们。"
+ },
+ "aboutLicenseSummary": {
+  "type": "s",
+  "en": "License summary",
+  "zh-Hans": "授权分布"
+ },
+ "aboutCredits": {
+  "type": "i",
+  "en": "Photo credits (%d)",
+  "zh-Hans": "素材来源（共 %d 条）"
+ },
+ "secLanguage": {
+  "type": "s",
+  "en": "Language",
+  "zh-Hans": "语言"
+ },
+ "labelLanguage": {
+  "type": "s",
+  "en": "Interface language",
+  "zh-Hans": "界面语言"
+ },
+ "helpLanguage": {
+  "type": "s",
+  "en": "The interface and the photo descriptions follow the same setting.",
+  "zh-Hans": "界面与图片介绍都跟随这一项。"
+ },
+ "secRhythm": {
+  "type": "s",
+  "en": "Rhythm",
+  "zh-Hans": "节奏"
+ },
+ "labelWorkInterval": {
+  "type": "s",
+  "en": "Reminder interval",
+  "zh-Hans": "提醒间隔"
+ },
+ "unitMinutes": {
+  "type": "i",
+  "en": "%d min",
+  "zh-Hans": "%d 分钟"
+ },
+ "labelRestDuration": {
+  "type": "s",
+  "en": "Break length",
+  "zh-Hans": "单次休息时长"
+ },
+ "unitSeconds": {
+  "type": "i",
+  "en": "%d s",
+  "zh-Hans": "%d 秒"
+ },
+ "labelPrewarning": {
+  "type": "s",
+  "en": "Heads-up before",
+  "zh-Hans": "提前预告"
+ },
+ "secSkipSnooze": {
+  "type": "s",
+  "en": "Skip & snooze",
+  "zh-Hans": "跳过与延后"
+ },
+ "labelSkipUnlock": {
+  "type": "s",
+  "en": "\"Skip\" unlock delay",
+  "zh-Hans": "「跳过」解锁延迟"
+ },
+ "skipUnlockImmediate": {
+  "type": "s",
+  "en": "Immediately",
+  "zh-Hans": "立即可跳过"
+ },
+ "labelSnoozeLength": {
+  "type": "s",
+  "en": "Snooze length",
+  "zh-Hans": "延后时长"
+ },
+ "helpSkipUnlock": {
+  "type": "s",
+  "en": "The delay before Skip appears is deliberate: skipping should cost a little resolve. A frictionless skip is no reminder at all.",
+  "zh-Hans": "跳过按钮延迟出现，是为了让「跳过」需要一点决心 —— 完全无摩擦的跳过等于没有提醒。"
+ },
+ "secLaunch": {
+  "type": "s",
+  "en": "Startup",
+  "zh-Hans": "启动"
+ },
+ "toggleLaunchAtLogin": {
+  "type": "s",
+  "en": "Launch at login",
+  "zh-Hans": "开机自动启动"
+ },
+ "secTesting": {
+  "type": "s",
+  "en": "Testing",
+  "zh-Hans": "测试"
+ },
+ "toggleTestMode": {
+  "type": "s",
+  "en": "Developer test mode",
+  "zh-Hans": "开发者测试模式"
+ },
+ "helpTestMode": {
+  "type": "s",
+  "en": "Unlocks 1/2/5-minute intervals and 5/10-second breaks, and shortens the wake cooldown to 5 seconds, so the whole \"auto-trigger\" path can run a full cycle in about a minute. Leave it off for normal use — a reminder every minute is harassment, not eye care.",
+  "zh-Hans": "解锁 1/2/5 分钟的间隔与 5/10 秒的休息时长，唤醒冷却缩短到 5 秒，让「自动触发」这条核心路径能在一分多钟内跑完一轮。正常使用时请关闭 —— 1 分钟提醒一次是骚扰，不是护眼。"
+ },
+ "secIdle": {
+  "type": "s",
+  "en": "Idle",
+  "zh-Hans": "空闲"
+ },
+ "toggleSuppressIdle": {
+  "type": "s",
+  "en": "Suppress while you're away",
+  "zh-Hans": "用户离开时顺延"
+ },
+ "labelIdleThreshold": {
+  "type": "s",
+  "en": "Idle threshold",
+  "zh-Hans": "空闲判定阈值"
+ },
+ "helpIdleThreshold": {
+  "type": "s",
+  "en": "Once you've been idle for this long it counts as \"already rested\", and the timer resets.",
+  "zh-Hans": "空闲达到阈值会被视为「已经休息过」，计时器重置。"
+ },
+ "secForeground": {
+  "type": "s",
+  "en": "Foreground",
+  "zh-Hans": "前台场景"
+ },
+ "toggleSuppressFullscreen": {
+  "type": "s",
+  "en": "Suppress in fullscreen apps / presentations",
+  "zh-Hans": "全屏应用 / 演示中顺延"
+ },
+ "toggleSuppressCamera": {
+  "type": "s",
+  "en": "Suppress while the camera is in use (in a meeting)",
+  "zh-Hans": "摄像头被占用（会议中）顺延"
+ },
+ "helpFullscreen": {
+  "type": "s",
+  "en": "Detected as \"the window's top edge covers the menu bar and it matches the screen size\". A maximised window is not mistaken for fullscreen.",
+  "zh-Hans": "判定为「窗口顶边覆盖菜单栏且尺寸与屏幕一致」。最大化窗口不会被误判为全屏。"
+ },
+ "secOther": {
+  "type": "s",
+  "en": "Other",
+  "zh-Hans": "其他"
+ },
+ "helpWakeCooldown": {
+  "type": "i",
+  "en": "After waking from sleep or unlocking, reminders wait at least %d seconds before they can fire.",
+  "zh-Hans": "从休眠唤醒或解锁后，至少等待 %d 秒才允许触发提醒。"
+ },
+ "helpDoNotDisturb": {
+  "type": "s",
+  "en": "macOS has no public API for Do Not Disturb / Focus, so this version doesn't use it as an automatic signal. Use \"Pause\" in the menu bar instead.",
+  "zh-Hans": "「勿扰 / 专注模式」在 macOS 上没有公开 API，本版本不作为自动判断依据，请使用菜单栏的「暂停」。"
+ },
+ "secMultiDisplay": {
+  "type": "s",
+  "en": "Multiple displays",
+  "zh-Hans": "多屏"
+ },
+ "labelDisplayTarget": {
+  "type": "s",
+  "en": "Show on",
+  "zh-Hans": "展示屏幕"
+ },
+ "secNight": {
+  "type": "s",
+  "en": "Night",
+  "zh-Hans": "夜间"
+ },
+ "toggleNightDimming": {
+  "type": "s",
+  "en": "Dim automatically at night",
+  "zh-Hans": "夜间自动压暗"
+ },
+ "labelNightStart": {
+  "type": "s",
+  "en": "Night starts",
+  "zh-Hans": "夜间开始"
+ },
+ "labelNightEnd": {
+  "type": "s",
+  "en": "Night ends",
+  "zh-Hans": "夜间结束"
+ },
+ "helpNightDimming": {
+  "type": "s",
+  "en": "At night the scene is dimmed and bright scenes are avoided, so a sudden full-screen white flash doesn't hit your eyes.",
+  "zh-Hans": "夜间会压暗画面并避开高亮度素材，避免突然的全屏白亮刺激。"
+ },
+ "assetsInRotationLabel": {
+  "type": "s",
+  "en": "In rotation",
+  "zh-Hans": "当前参与轮播"
+ },
+ "assetsNoneWarning": {
+  "type": "s",
+  "en": "No scenes are enabled. The break screen will fall back to a plain colour — the reminder still works, there's just no picture.",
+  "zh-Hans": "没有任何可用素材。休息画面会退化成纯色背景 —— 提醒照常，只是没有配图。"
+ },
+ "assetsAllBundledInfo": {
+  "type": "s",
+  "en": "You're using only the landscape photos shipped with the app. Use the buttons below to import your own images.",
+  "zh-Hans": "当前全部使用随 App 分发的预置风景照。点下面的按钮可以导入你自己的图片。"
+ },
+ "assetsAllPlaceholderInfo": {
+  "type": "s",
+  "en": "You're using only the procedurally generated placeholder scenes (abstract colour blocks). Use the buttons below to import your own images.",
+  "zh-Hans": "当前全部使用程序化生成的占位场景（抽象色块）。点下面的按钮导入你自己的图片。"
+ },
+ "assetsMixedSummaryBundled": {
+  "type": "ii",
+  "en": "Imported %d images; %d bundled landscape photos are also in rotation.",
+  "zh-Hans": "已导入 %d 张图片，另有 %d 张预置风景照在轮播中。"
+ },
+ "assetsMixedSummaryPlaceholder": {
+  "type": "ii",
+  "en": "Imported %d images; %d placeholder scenes are also in rotation.",
+  "zh-Hans": "已导入 %d 张图片，另有 %d 张占位场景在轮播中。"
+ },
+ "assetsDisableBuiltIn": {
+  "type": "s",
+  "en": "Turn off built-in scenes",
+  "zh-Hans": "关闭内置场景"
+ },
+ "assetsDisabledBuiltInFlash": {
+  "type": "s",
+  "en": "Built-in scenes are off — only your own images will rotate",
+  "zh-Hans": "已关闭内置场景，现在只轮播你的图片"
+ },
+ "assetsMyImages": {
+  "type": "s",
+  "en": "My Images",
+  "zh-Hans": "我的图片"
+ },
+ "assetsAddImages": {
+  "type": "s",
+  "en": "Add Images…",
+  "zh-Hans": "添加图片…"
+ },
+ "assetsAddFolder": {
+  "type": "s",
+  "en": "Add Folder…",
+  "zh-Hans": "添加文件夹…"
+ },
+ "assetsRemoveAll": {
+  "type": "s",
+  "en": "Remove All",
+  "zh-Hans": "全部移除"
+ },
+ "assetsImportFormatsHelp": {
+  "type": "s",
+  "en": "Supports JPG / PNG / HEIC / WebP / TIFF / BMP / GIF. Images wider than 2560 pixels are downsampled automatically, so the library doesn't grow for no reason.",
+  "zh-Hans": "支持 JPG / PNG / HEIC / WebP / TIFF / BMP / GIF。超过 2560 像素的图会自动降采样，避免素材库无谓地变大。"
+ },
+ "assetsBuiltInTitle": {
+  "type": "s",
+  "en": "Built-in scenes",
+  "zh-Hans": "内置场景"
+ },
+ "assetsInRotationToggle": {
+  "type": "s",
+  "en": "In rotation",
+  "zh-Hans": "参与轮播"
+ },
+ "assetsBuiltInRealPhotosHelp": {
+  "type": "i",
+  "en": "%d real landscape photos shipped with the app (from Wikimedia Commons; see each image's original page for its licence). Enable or disable by category — the category is the unit the picker uses to avoid showing two similar scenes in a row.",
+  "zh-Hans": "随 App 分发的 %d 张真实风景照（来源 Wikimedia Commons，许可见各图原始页面）。按类别启用/禁用 —— 类别是选片算法保证「相邻两次画面不雷同」的单位。"
+ },
+ "assetsBuiltInPlaceholdersHelp": {
+  "type": "s",
+  "en": "Procedurally generated placeholder scenes, used to exercise the whole flow before any real scenes are available. Enable or disable by category — the category is the unit the picker uses to avoid showing two similar scenes in a row.",
+  "zh-Hans": "程序化生成的占位场景，用来在还没有真实素材时跑通流程。按类别启用/禁用 —— 类别是选片算法保证「相邻两次画面不雷同」的单位。"
+ },
+ "assetsPickPanelTitle": {
+  "type": "s",
+  "en": "Choose background images",
+  "zh-Hans": "选择背景图片"
+ },
+ "assetsImportButton": {
+  "type": "s",
+  "en": "Import",
+  "zh-Hans": "导入"
+ },
+ "assetsPickFolderPanel": {
+  "type": "s",
+  "en": "Choose a folder containing background images",
+  "zh-Hans": "选择包含背景图片的文件夹"
+ },
+ "assetsPickFolderNote": {
+  "type": "s",
+  "en": "Only images directly inside this folder are taken; subfolders are not scanned.",
+  "zh-Hans": "只取这个文件夹里直接包含的图片，不会递归子文件夹"
+ },
+ "assetsWriteFailed": {
+  "type": "str",
+  "en": "Could not write to the scene library: %@",
+  "zh-Hans": "写入素材库失败：%@"
+ },
+ "assetsCategoryPromptTitle": {
+  "type": "s",
+  "en": "Which category should these images belong to?",
+  "zh-Hans": "这批图片算作哪一类？"
+ },
+ "assetsCategoryPromptHelp": {
+  "type": "s",
+  "en": "The category keeps two consecutive scenes from looking alike. If you're not sure, pick \"My Images\" — you can change each one later.",
+  "zh-Hans": "类别用于保证相邻两次展示的画面不雷同。不确定就选「我的图片」，之后可以逐张修改。"
+ },
+ "assetsReassignFailed": {
+  "type": "str",
+  "en": "Could not change the category: %@",
+  "zh-Hans": "改类别失败：%@"
+ },
+ "assetsDeleteConfirmTitle": {
+  "type": "str",
+  "en": "Delete \"%@\"?",
+  "zh-Hans": "删除「%@」？"
+ },
+ "assetsDeleteConfirmHelp": {
+  "type": "s",
+  "en": "This also deletes the copy in the scene library. Your original file is untouched.",
+  "zh-Hans": "会同时删掉素材库里这份拷贝。你原来的文件不受影响。"
+ },
+ "assetsDeletedFlash": {
+  "type": "s",
+  "en": "Deleted",
+  "zh-Hans": "已删除"
+ },
+ "assetsDeleteFailed": {
+  "type": "str",
+  "en": "Delete failed: %@",
+  "zh-Hans": "删除失败：%@"
+ },
+ "assetsRemoveAllConfirm": {
+  "type": "i",
+  "en": "Remove all %d imported images?",
+  "zh-Hans": "移除全部 %d 张导入的图片？"
+ },
+ "assetsRemoveAllHelp": {
+  "type": "s",
+  "en": "Only the copies in the scene library are deleted; your original files are untouched.",
+  "zh-Hans": "只删素材库里的拷贝，你原来的文件不受影响。"
+ },
+ "assetsRemovedAllFlash": {
+  "type": "s",
+  "en": "All removed",
+  "zh-Hans": "已全部移除"
+ },
+ "assetsRemoveFailed": {
+  "type": "str",
+  "en": "Remove failed: %@",
+  "zh-Hans": "移除失败：%@"
+ },
+ "assetsTipDisable": {
+  "type": "s",
+  "en": "Click to disable",
+  "zh-Hans": "点击禁用"
+ },
+ "assetsTipEnable": {
+  "type": "s",
+  "en": "Click to enable",
+  "zh-Hans": "点击启用"
+ },
+ "assetsTipDelete": {
+  "type": "s",
+  "en": "Remove from library",
+  "zh-Hans": "从素材库删除"
+ },
+ "importAdded": {
+  "type": "i",
+  "en": "%d imported",
+  "zh-Hans": "导入 %d 张"
+ },
+ "importSkippedDuplicates": {
+  "type": "i",
+  "en": "%d duplicates skipped",
+  "zh-Hans": "跳过重复 %d 张"
+ },
+ "importUnsupported": {
+  "type": "i",
+  "en": "%d non-image files",
+  "zh-Hans": "非图片 %d 个"
+ },
+ "importFailed": {
+  "type": "i",
+  "en": "%d failed",
+  "zh-Hans": "失败 %d 张"
+ },
+ "importNothing": {
+  "type": "s",
+  "en": "Nothing to import",
+  "zh-Hans": "没有可导入的文件"
+ },
+ "importAndMore": {
+  "type": "si",
+  "en": "%@ and %d more",
+  "zh-Hans": "%@ 等 %d 个"
+ },
+ "importDuplicatesList": {
+  "type": "str",
+  "en": "Duplicates: %@",
+  "zh-Hans": "重复：%@"
+ },
+ "importUnsupportedList": {
+  "type": "str",
+  "en": "Not images: %@",
+  "zh-Hans": "非图片：%@"
+ },
+ "importFailedList": {
+  "type": "str",
+  "en": "Failed: %@",
+  "zh-Hans": "失败：%@"
+ },
+ "importFailureLine": {
+  "type": "ss",
+  "en": "%@: %@",
+  "zh-Hans": "%@：%@"
+ },
+ "importSummaryWithDetail": {
+  "type": "ss",
+  "en": "%@ — %@",
+  "zh-Hans": "%@ —— %@"
+ },
+ "parenthesized": {
+  "type": "str",
+  "en": "(%@)",
+  "zh-Hans": "（%@）"
+ },
+ "detailSeparator": {
+  "type": "s",
+  "en": "; ",
+  "zh-Hans": "；"
+ },
+ "importReasonUnreadable": {
+  "type": "s",
+  "en": "Could not read file",
+  "zh-Hans": "读不到文件"
+ },
+ "importReasonNotImage": {
+  "type": "s",
+  "en": "Not a recognizable image",
+  "zh-Hans": "不是可识别的图片"
+ },
+ "importReasonUndecodable": {
+  "type": "s",
+  "en": "Could not decode",
+  "zh-Hans": "无法解码"
+ },
+ "importReasonWriteFailed": {
+  "type": "s",
+  "en": "Write failed",
+  "zh-Hans": "写入失败"
+ },
+ "noticeSkipTitle": {
+  "type": "s",
+  "en": "You've skipped several breaks in a row",
+  "zh-Hans": "你最近连续跳过了几次休息"
+ },
+ "noticeSkipBody": {
+  "type": "i",
+  "en": "If a %d-minute interval feels too frequent, a longer interval is usually easier to stick with.",
+  "zh-Hans": "如果 %d 分钟的间隔太频繁，把间隔调长一些通常更容易坚持下来。"
+ },
+ "noticeSkipAction30": {
+  "type": "s",
+  "en": "Use 30 minutes",
+  "zh-Hans": "改为 30 分钟"
+ },
+ "noticeSkipActionKeep": {
+  "type": "s",
+  "en": "Keep current interval",
+  "zh-Hans": "保持当前间隔"
+ },
+ "noticeSkipActionMute": {
+  "type": "s",
+  "en": "Don't ask again",
+  "zh-Hans": "不再提示"
+ },
+ "captionCredit": {
+  "type": "si",
+  "en": "%@ · %d",
+  "zh-Hans": "%@ · %d"
+ }
+}

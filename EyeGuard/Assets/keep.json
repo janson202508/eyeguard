@@ -1,0 +1,272 @@
+{
+  "mountain": [
+    {
+      "title": "File:Lake Mystery, Canterbury, New Zealand 05.jpg",
+      "depthScore": 5.0,
+      "tone": "cool"
+    },
+    {
+      "title": "File:Valley viewed from Sendero Hoya del Portillo in La Taha, Sierra Nevada National Park (DSCF5124).jpg",
+      "depthScore": 5.0,
+      "tone": "cool"
+    },
+    {
+      "title": "File:A small loch in the saddle between Beinn an Dothaidh and Beinn Dorain, Scotland 01.jpg",
+      "depthScore": 4.0,
+      "tone": "warm"
+    },
+    {
+      "title": "File:Mali i Thatë from Magaro Peak, September 2019.jpg",
+      "depthScore": 4.0,
+      "tone": "cool"
+    },
+    {
+      "title": "File:Nogueira valley view from Balcões, São Roque do Faial, Santana, Madeira, 2023 May.jpg",
+      "depthScore": 4.0,
+      "tone": "neutral"
+    },
+    {
+      "title": "File:Mount Shasta, Lake Siskiyou, SW view.jpg",
+      "depthScore": 5.0,
+      "tone": "cool"
+    }
+  ],
+  "ocean": [
+    {
+      "title": "File:Richly colored sky over calm sea water (Unsplash).jpg",
+      "depthScore": 4.0,
+      "tone": "warm"
+    },
+    {
+      "title": "File:Cape Bridgewater (AU), Blowholes -- 2019 -- 0813.jpg",
+      "depthScore": 4.0,
+      "tone": "cool"
+    },
+    {
+      "title": "File:Princetown (AU), Port Campbell National Park, Twelve Apostles -- 2019 -- 0930.jpg",
+      "depthScore": 5.0,
+      "tone": "cool"
+    },
+    {
+      "title": "File:Santorin (GR), Exomytis, Vlychada Beach -- 2017 -- 2999.jpg",
+      "depthScore": 3.9,
+      "tone": "cool"
+    },
+    {
+      "title": "File:DSC 8992 Golden sun sinks below a distant ridge casting a shimmering path of light across the calm sea.jpg",
+      "depthScore": 4.0,
+      "tone": "warm"
+    },
+    {
+      "title": "File:Бухта Инал Dzhubga WMID6978807.jpg",
+      "depthScore": 4.5,
+      "tone": "cool"
+    }
+  ],
+  "forest": [
+    {
+      "title": "File:Karula vaade.jpg",
+      "depthScore": 4.0,
+      "tone": "warm"
+    },
+    {
+      "title": "File:Ukraine, Ivano-Frankivska, Yasen - Piekło WMID4077570.jpg",
+      "depthScore": 5.0,
+      "tone": "cool"
+    },
+    {
+      "title": "File:Meenikunno maastikukaiteala.jpg",
+      "depthScore": 5.0,
+      "tone": "neutral"
+    },
+    {
+      "title": "File:Wandelen over de Planken Wambuis vanuit Mossel 069 A.jpg",
+      "depthScore": 4.0,
+      "tone": "neutral"
+    },
+    {
+      "title": "File:21-224-5054 NNP Synevyr RB 18.jpg",
+      "depthScore": 5.0,
+      "tone": "warm"
+    }
+  ],
+  "lake": [
+    {
+      "title": "File:Beautiful mountain reflection (Unsplash).jpg",
+      "depthScore": 5.0,
+      "tone": "warm"
+    },
+    {
+      "title": "File:Buckow Maerkische Schweiz 08-2015 img5.jpg",
+      "depthScore": 4.0,
+      "tone": "neutral"
+    },
+    {
+      "title": "File:Sheosar Lake with reflection of majestic Nanga Parbat.jpg",
+      "depthScore": 5.0,
+      "tone": "cool"
+    },
+    {
+      "title": "File:Mt Moran Reflection, Jackson Lake, WY 2012 (19532773148).jpg",
+      "depthScore": 5.0,
+      "tone": "cool"
+    },
+    {
+      "title": "File:Lac de Roy 10.jpg",
+      "depthScore": 4.0,
+      "tone": "neutral"
+    }
+  ],
+  "desert": [
+    {
+      "title": "File:Dead Vlei Tree central.jpg",
+      "depthScore": 5.0,
+      "tone": "warm"
+    },
+    {
+      "title": "File:Western Desert, Sahara Desert, Egypt.jpg",
+      "depthScore": 4.0,
+      "tone": "neutral"
+    },
+    {
+      "title": "File:Namibküste-2.jpg",
+      "depthScore": 4.0,
+      "tone": "warm"
+    },
+    {
+      "title": "File:Atacama Panorama (img 0208-cc).jpg",
+      "depthScore": 4.0,
+      "tone": "neutral"
+    }
+  ],
+  "snow": [
+    {
+      "title": "File:Winter in Tatry Mountains - Poland.jpg",
+      "depthScore": 5.0,
+      "tone": "cool"
+    },
+    {
+      "title": "File:View over northern part of Lake Tekapo and snow-covered mountains.jpg",
+      "depthScore": 5.0,
+      "tone": "cool"
+    },
+    {
+      "title": "File:Thajiwas Park, Sonamarg, Jammu and Kashmir, India.jpg",
+      "depthScore": 3.9,
+      "tone": "cool"
+    },
+    {
+      "title": "File:Sunset over the ice of Brofjorden 1.jpg",
+      "depthScore": 4.0,
+      "tone": "warm"
+    }
+  ],
+  "starfield": [
+    {
+      "title": "File:Stars and Milky Way above a Joshua tree (53433928626).jpg",
+      "depthScore": 3.9,
+      "tone": "cool"
+    },
+    {
+      "title": "File:Milky Way over the Garden of Eden (d3702c4c-1dd8-b71b-0b40-a2c1c60fb98c).jpg",
+      "depthScore": 4.0,
+      "tone": "cool"
+    },
+    {
+      "title": "File:Night-sky-milky-way-stars-hills - West Virginia - ForestWander.jpg",
+      "depthScore": 4.0,
+      "tone": "cool"
+    },
+    {
+      "title": "File:Steens Mountain in eastern Oregon (9683731272).jpg",
+      "depthScore": 5.0,
+      "tone": "cool"
+    },
+    {
+      "title": "File:The Milky Way over the North Fork Crooked Wild and Scenic River (27635501804).jpg",
+      "depthScore": 4.0,
+      "tone": "cool"
+    }
+  ],
+  "grassland": [
+    {
+      "title": "File:Balka Orlinskaya-20060825.JPG",
+      "depthScore": 3.9,
+      "tone": "warm"
+    },
+    {
+      "title": "File:Alpine meadows.jpg",
+      "depthScore": 5.0,
+      "tone": "cool"
+    },
+    {
+      "title": "File:Green mountain on savannah (Unsplash).jpg",
+      "depthScore": 4.0,
+      "tone": "warm"
+    },
+    {
+      "title": "File:Valley of Flowers, Uttarakhand - August 2022 02.jpg",
+      "depthScore": 5.0,
+      "tone": "cool"
+    },
+    {
+      "title": "File:Khao Yai, Thailand, Tropical grasslands.jpg",
+      "depthScore": 4.0,
+      "tone": "warm"
+    }
+  ],
+  "canyon": [
+    {
+      "title": "File:Waimea Canyon, Kauaʻi.jpg",
+      "depthScore": 5.0,
+      "tone": "neutral"
+    },
+    {
+      "title": "File:Grand Canyon Powell Point Evening Light 02 2013.jpg",
+      "depthScore": 5.0,
+      "tone": "warm"
+    },
+    {
+      "title": "File:Cañón Sesriem, Sossusvlei, Namibia, 2018-08-06, DD 186.jpg",
+      "depthScore": 4.0,
+      "tone": "warm"
+    },
+    {
+      "title": "File:Dagestan-034.jpg",
+      "depthScore": 5.0,
+      "tone": "neutral"
+    }
+  ],
+  "aerial": [
+    {
+      "title": "File:Western Karakorams Aerial View.jpg",
+      "depthScore": 5.0,
+      "tone": "cool"
+    },
+    {
+      "title": "File:Bumpass Hell seen from above (238a5d1e-d4af-42d2-9315-1786652a990b).jpg",
+      "depthScore": 3.8,
+      "tone": "cool"
+    },
+    {
+      "title": "File:ARG-2016-Aerial-Tierra del Fuego (Ushuaia)–Valle Carbajal 01.jpg",
+      "depthScore": 5.0,
+      "tone": "cool"
+    },
+    {
+      "title": "File:Valley landscape at Keneskoski of Utsjoki, Utsjoki, Lapland, Finland, 2021 September.jpg",
+      "depthScore": 5.0,
+      "tone": "warm"
+    },
+    {
+      "title": "File:Scenic flight over the Okavango Delta - Botswana - panoramio.jpg",
+      "depthScore": 5.0,
+      "tone": "neutral"
+    },
+    {
+      "title": "File:Morning fog over Keravanjoki river in Vantaa, Finland, 2021 October - 4.jpg",
+      "depthScore": 4.0,
+      "tone": "warm"
+    }
+  ]
+}

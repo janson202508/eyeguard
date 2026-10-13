@@ -1,0 +1,28 @@
+# 预置素材的 JPEG 不进版本库。
+#
+# 626 张 1920px 的 JPEG 约 416 MB —— 体积大、且是**生成物**，不该塞进 git。
+# 注意：这个仓库的根在 $HOME（见 build.sh 的注释），没有仓库级 .gitignore，
+# 所以这条规则必须放在这里，否则一次 `git add -A` 就会把几百 MB 图片收进去。
+#
+# 真正需要版本化的是**人工判断与可审计的产物**，它们放在上一级目录：
+#   ../keep.json              50 条 {title, depthScore, tone} —— 人工看图标注，
+#                             程序无法重建（FR-4.6 要 >=70% 达到 depthScore>=4，
+#                             FR-4.7 夜间排除暖调，都吃这两个字段）
+#   ../candidates-index.json  候选元数据（title → 缩略图/原图 URL、摄影者、许可），
+#                             有了它 finalize 可以离线重跑，不必再调 search
+#   caption-source.json       609 条原始元数据（ImageDescription / Artist /
+#                             DateTimeOriginal / GPS / 分类），**FR-11 图片介绍的
+#                             唯一证据链** —— 每条介绍都能反查回这里。
+#                             ⚠️ 它是 .json，不受下面 `*.jpg` 影响，别误删。
+#
+# 完整重建链（在工作目录下执行，$OUT 为任意临时目录）：
+#   cp Assets/keep.json Assets/candidates-index.json "$OUT"/
+#   python Tools/fetch_scenes.py --out "$OUT" finalize \
+#          --keep "$OUT/keep.json" --max-edge 1920 --pause 1
+#   cp "$OUT"/final/*.jpg "$OUT"/final/manifest.json Assets/Scenes/
+#   python Tools/i18n/build_captions.py --apply     # 补 FR-11 图片介绍（离线）
+# 若要从零重新选片（会得到**不同**的候选集），再往前加：
+#   python Tools/fetch_scenes.py --out "$OUT" search   # 拉候选
+#   python Tools/fetch_scenes.py --out "$OUT" sheet    # 出 16 宫格总览图
+# 然后人工看图写出新的 keep.json。
+*.jpg

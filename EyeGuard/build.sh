@@ -79,6 +79,18 @@ else
     echo "   生成方式：python Tools/fetch_scenes.py --out <dir> search / sheet / finalize" >&2
 fi
 
+# 许可声明必须随副本一起分发 —— MIT 的原文要求是
+# "The above copyright notice and this permission notice shall be included in all
+#  copies or substantial portions of the Software"。
+# 光在仓库根放一个 LICENSE 不够：用户拿到的是 .app，不是仓库。
+# 素材的逐条署名在应用内「设置 → 关于」页（由素材库运行时生成）。
+LICENSE_SRC="$ROOT/../LICENSE"
+if [ -f "$LICENSE_SRC" ]; then
+    cp "$LICENSE_SRC" "$APP_BUNDLE/Contents/Resources/LICENSE"
+else
+    echo "!! 未找到 $LICENSE_SRC，bundle 里将没有许可声明" >&2
+fi
+
 cat > "$APP_BUNDLE/Contents/Info.plist" <<PLIST
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">

@@ -69,6 +69,10 @@ echo "==> 组装发布包"
 cp -R "$ROOT/EyeGuard/build/$NAME" "$DIST/stage/"
 cp -R "$ROOT/EyeGuardLauncher/build/$LAUNCHER" "$DIST/stage/"
 
+# 许可声明要随发布包一起给 —— MIT 要求它随所有副本分发。
+# （build.sh 已把它放进 .app 的 Resources/，这里再在包顶层放一份，方便直接看到。）
+cp "$ROOT/LICENSE" "$DIST/stage/LICENSE"
+
 # 把控制台 .app 的显示名改成中文 —— 用户在「应用程序」里看到的就是这个名字
 /usr/libexec/PlistBuddy -c 'Set :CFBundleDisplayName "EyeGuard 控制台"' \
     "$DIST/stage/$LAUNCHER/Contents/Info.plist" 2>/dev/null || true
